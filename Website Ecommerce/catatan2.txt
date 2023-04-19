@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard | Toko</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <!-- Icons -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+
+    <!-- FEATHER ICONS -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+<body>
+
+    <!-- Navbar Start -->
+    <nav id="nav">
+        <div class="container flex">
+            <h1>ShopDen</h1>
+            <div class="links">
+                <a>Home</a>
+                <a>About</a>
+                <a>Product</a>
+                <a>Contacts</a>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <h2>ShopDen Hype</h2>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur
+            praesentium qui error nulla, est deleniti repellat soluta animi
+            similique eveniet, amet maxime sapiente, repellendus tenetur porro quae?
+            Itaque, provident mollitia.
+        </p>
+    </div>
+    <!-- Navbar End -->
+
+    <!-- Hero Start-->
+    <!-- Hero End -->
+
+    <!-- Feather Config -->
+    <script>
+        feather.replace()
+    </script>
+
+    <!-- Hamburger -->
+    <script src="./assets/js/hamburger.js"></script>
+</body>
+
+</html>

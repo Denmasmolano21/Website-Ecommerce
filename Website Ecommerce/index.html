@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard | Toko</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/loader.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- Icons -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link rel="shortcut icon" href="assets/img/undraw-contact.svg" type="image/x-icon">
+
+    <!-- FEATHER ICONS -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- Js -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script>// set delay 10s
+        var delay = 2000;
+
+        $(window).on('load', function () {
+            setTimeout(function () {
+                $("#loading").hide();
+                $(".loader").hide();
+            }, delay);
+        });</script>
+
+<body>
+    <div id="loading">
+        <span class="loader"></span>
+        <div class="textLoader">
+            <center>
+                <b>Please Wait ... </b>
+            </center>
+        </div>
+    </div>
+
+    <!-- Navbar Start -->
+    <nav id="nav">
+        <div class="container flex">
+            <h1 class="nav-logo">ShopDen</h1>
+            <div class="links">
+                <a href="#">Home</a>
+                <!-- <a>About</a> -->
+                <a href="#product_1">Product</a>
+                <a href="#contact_1">Contacts</a>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- Hero Start-->
+    <div class="hero">
+        <div class="hero-content">
+            <h2 class="title">ShopDen</h2>
+            <p class="desc">Happy Shopping At ShopDen, Guaranteed All Very Affordable Prices.</p>
+            <div class="btn-hero">
+                <button class="hero-btn success">Get Started</button>
+                <button class="hero-btn info">Buy Now!</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Hero End -->
+
+    <!-- Product -->
+    <section id="product_1">
+        <div class="section">
+            <h1 class="title-product">Product</h1>
+            <div class="section1">
+                <div class="img-slider">
+                    <img src="https://images.pexels.com/photos/6347888/pexels-photo-6347888.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+                        alt="" class="img">
+                    <img src="https://images.pexels.com/photos/3962294/pexels-photo-3962294.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+                        alt="" class="img">
+                    <img src="https://images.pexels.com/photos/2292953/pexels-photo-2292953.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+                        alt="" class="img">
+                    <img src="https://images.pexels.com/photos/1229861/pexels-photo-1229861.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+                        alt="" class="img">
+                    <img src="https://images.pexels.com/photos/1598505/pexels-photo-1598505.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+                        alt="" class="img">
+                </div>
+            </div>
+            <div class="section2">
+                <div class="container">
+                    <div class="items">
+                        <div class="img img1"><img
+                                src="https://images.pexels.com/photos/1464625/pexels-photo-1464625.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                                alt=""></div>
+                        <div class="name">SHOES</div>
+                        <div class="price">Rp.120k</div>
+                        <button class="buy">Buy</button>
+                    </div>
+                    <div class="items">
+                        <div class="img img2"><img
+                                src="https://images.pexels.com/photos/3649765/pexels-photo-3649765.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                                alt=""></div>
+                        <div class="name">MEN's T-SHIRT</div>
+                        <div class="price">Rp.120k</div>
+                        <button class="buy">Buy</button>
+                    </div>
+                    <div class="items">
+                        <div class="img img3"><img
+                                src="https://media.istockphoto.com/photos/folded-blue-jeans-on-a-white-background-modern-casual-clothing-flat-picture-id1281304280"
+                                alt=""></div>
+                        <div class="name">JEANS</div>
+                        <div class="price">Rp.120</div>
+                        <button class="buy">Buy</button>
+                    </div>
+                    <div class="items">
+                        <div class="img img1"><img
+                                src="https://images.pexels.com/photos/8839887/pexels-photo-8839887.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                                alt=""></div>
+                        <div class="name">WATCH</div>
+                        <div class="price">Rp.120k</div>
+                        <button class="buy">Buy</button>
+                    </div>
+                    <div class="items">
+                        <div class="img img1"><img
+                                src="https://images.pexels.com/photos/6858618/pexels-photo-6858618.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                                alt=""></div>
+                        <div class="name">SMART PHONE</div>
+                        <div class="price">Rp.120k</div>
+                        <button class="buy">Buy</button>
+                    </div>
+                    <div class="items">
+                        <div class="img img1"><img
+                                src="https://images.pexels.com/photos/5552789/pexels-photo-5552789.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                                alt=""></div>
+                        <div class="name">TELEVISION</div>
+                        <div class="price">Rp.120k</div>
+                        <button class="buy">Buy</button>
+                    </div>
+                    <div class="items">
+                        <div class="img img1"><img
+                                src="https://images.pexels.com/photos/4295985/pexels-photo-4295985.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                                alt=""></div>
+                        <div class="name">HOODIES</div>
+                        <div class="price">Rp.120k</div>
+                        <button class="buy">Buy</button>
+                    </div>
+                    <div class="items">
+                        <div class="img img1"><img
+                                src="https://media.istockphoto.com/photos/vintage-plates-with-silver-teaspoons-picture-id184363070"
+                                alt=""></div>
+                        <div class="name">DINNER SET</div>
+                        <div class="price">Rp.120k</div>
+                        <button class="buy">Buy</button>
+                    </div>
+                    <div class="items">
+                        <div class="img img1"><img
+                                src="https://images.pexels.com/photos/6463348/pexels-photo-6463348.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                                alt=""></div>
+                        <div class="name">BLANKETS</div>
+                        <div class="price">Rp.120k</div>
+                        <button class="buy">Buy</button>
+                    </div>
+                    <div class="items">
+                        <div class="img img1"><img
+                                src="https://images.pexels.com/photos/2659939/pexels-photo-2659939.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                                alt=""></div>
+                        <div class="name">LAPTOP</div>
+                        <div class="price">Rp.120k</div>
+                        <button class="buy">Buy</button>
+                    </div>
+                </div>
+            </div>
+
+    </section>
+
+    <!-- Product End -->
+
+    <!-- Contacts -->
+    <section id="contact_1" class="content">
+        <div class="container">
+            <h1 class="title-contact">Contact</h1>
+            <div class="row justify-content-center">
+                <div class="col-md-10">
+                    <div class="row justify-content-center">
+                        <div class="col-md-6">
+                            <h3 class="heading mb-4">Let's talk about everything!</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas debitis, fugit natus?
+                            </p>
+                            <p><img src="./assets/img/undraw-contact.svg" alt="Image" class="img-fluid"></p>
+                        </div>
+                        <div class="col-md-6">
+                            <form class="mb-5" method="post" id="contactForm" name="contactForm">
+                                <div class="row">
+                                    <div class="col-md-12 form-group">
+                                        <input type="text" class="form-control" name="name" id="name"
+                                            placeholder="Your name">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12 form-group">
+                                        <input type="text" class="form-control" name="email" id="email"
+                                            placeholder="Email">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12 form-group">
+                                        <input type="text" class="form-control" name="subject" id="subject"
+                                            placeholder="Subject">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12 form-group">
+                                        <textarea class="form-control" name="message" id="message" cols="30" rows="7"
+                                            placeholder="Write your message"></textarea>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12">
+                                        <a href="wa.me/+6285780355323" class="btn btn-primary rounded py-2 px-4">Send
+                                            Message</a>
+                                        <span class="submitting"></span>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contacts End -->
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer0">
+            <h1 class="title-footer">ShopDen</h1>
+        </div>
+        <div class="footer1 ">
+            Connect with us at<div class="social-media">
+                <a href="#">
+                    <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+                <a href="#">
+                    <ion-icon name="logo-linkedin"></ion-icon>
+                </a>
+                <a href="#">
+                    <ion-icon name="logo-youtube"></ion-icon>
+                </a>
+                <a href="#">
+                    <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+                <a href="#">
+                    <ion-icon name="logo-twitter"></ion-icon>
+                </a>
+            </div>
+        </div>
+        <div class="footer2">
+            <div class="product">
+                <div class="heading">Products</div>
+                <div class="div">Sell your Products</div>
+                <div class="div">Advertise</div>
+                <div class="div">Pricing</div>
+                <div class="div">Product Buisness</div>
+
+            </div>
+            <div class="services">
+                <div class="heading">Services</div>
+                <div class="div">Return</div>
+                <div class="div">Cash Back</div>
+                <div class="div">Affiliate Marketing</div>
+                <div class="div">Others</div>
+            </div>
+            <div class="Company">
+                <div class="heading">Contacts</div>
+                <div class="div">Telephone</div>
+                <div class="div">G-mail</div>
+                <div class="div">Whatsapp</div>
+                <div class="div">Facebook</div>
+            </div>
+
+        </div>
+        <div class="footer3">Copyright © <a href="">Denmas</a> 2023</div>
+    </footer>
+    <!-- Footer End -->
+
+    <!-- Feather Config -->
+    <script>
+        feather.replace()
+    </script>
+
+    <!-- Hamburger -->
+    <script src="./assets/js/hamburger.js"></script>
+    <script src="./assets/js/hero.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,244 @@
+https://codemyui.com/tag/hover-animation/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* UTILITIES */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #181823;
+    font-family: 'Poppins', sans-serif;
+    min-height: 500vh;
+}
+
+li {
+    list-style-type: none;
+}
+
+/* Navbar */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.4rem 7%;
+    /* position: fixed; */
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    margin: auto;
+    width: 90%;
+    height: 5rem;
+    border-radius: 0 0 1rem 1rem;
+    background: #F0F0F0;
+    box-shadow: 0 1rem 2rem rgba(157, 157, 157, 0.2);
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Element Navbar */
+
+.navbar .navbar-logo a {
+    color: rgba(24, 24, 35, 0.8);
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    transition: 0.3s linear;
+}
+
+.navbar .navbar-logo a:hover {
+    color: rgba(24, 24, 35, 1);
+}
+
+.navbar .navbar-nav a {
+    color: rgba(24, 24, 35, 0.8);
+    display: inline-block;
+    font-size: 1.1rem;
+    margin: 0.3rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    transition: 0.2s ease-in-out;
+}
+
+.navbar .navbar-nav a:hover {
+    color: rgba(24, 24, 35, 1);
+}
+
+.a-1 {
+    display: inline-block;
+    position: relative;
+    color: rgba(24, 24, 35, 1);
+}
+
+.a-1::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(24, 24, 35, 0.8);
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.a-1:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+.navbar .navbar-icon button {
+    color: rgba(24, 24, 35, 0.8);
+    background-color: transparent;
+    border: none;
+}
+
+.navbar .navbar-icon button:hover {
+    color: rgba(24, 24, 35, 1);
+}
+
+#hamburger-menu {
+    display: none;
+}
+
+/* Navbar End */
+
+/* Hero */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.hero-content {
+    padding: 2rem;
+    height: 100%;
+    margin: 5rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.title {
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    color: #F0F0F0;
+    font-size: 3rem;
+    line-height: 1;
+}
+
+.desc {
+    color: rgba(240, 240, 240, 0.7);
+    margin-top: 1rem;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* Clear floats after the columns */
+
+.hero-btn {
+    width: 200px;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    display: inline-block;
+    margin-top: 2rem;
+    margin-left: 0.5rem;
+    border-radius: 0.375rem;
+    border: none;
+}
+
+.success {
+    background-color: rgb(79 70 229);
+    color: white;
+    margin-right: 1.3rem;
+    transition: 0.2s ease-in-out;
+}
+
+.info {
+    background-color: #fff;
+    color: rgb(79 70 229);
+    transition: 0.2s ease-in-out;
+}
+
+.success:hover {
+    box-shadow: 2px 4px 6px 8px rgb(79 70 229/0.10);
+}
+
+.info:hover {
+    box-shadow: 2px 4px 6px 8px #dddddd40;
+}
+
+/* Hero End */
+
+@media (max-width: 1366px) {
+
+    html {
+        font-size: 75%;
+    }
+}
+
+@media (max-width: 768px) {
+
+     html {
+        font-size: 62.5%;
+    }
+
+    #hamburger-menu {
+        display: inline-block;
+    }
+
+    .menu-1 {
+        width: 2rem;
+        height: 2rem;
+    }
+
+    .navbar .navbar-logo a {
+        font-size: 1.7rem;
+    }
+
+    .navbar .navbar-nav {
+        position: absolute;
+        border-radius: 1rem;
+        top: 10%;
+        right: -100%;
+        background-color: #F0F0F0;
+        transition: 0.3s;
+    }
+
+    .navbar,
+    .navbar-nav.active {
+        right: 0;
+        box-shadow: 0 1rem 2rem rgba(157, 157, 157, 0.2);
+    }
+
+    .navbar .navbar-nav a {
+        color: rgba(24, 24, 35, 0.8);
+        display: block;
+        margin: 1.5rem;
+        padding: 0.5rem;
+        font-size: 1.7rem;
+    }
+}
+
+/* Mobile phone */
+@media (max-width: 450px) {
+    html {
+        font-size: 55%;
+    }
+}
+
