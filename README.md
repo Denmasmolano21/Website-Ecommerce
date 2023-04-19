@@ -1,3 +1,3 @@
-# Website-Ecommerc
+# Website-Ecommerce
 
 #Denmas | Frontend
